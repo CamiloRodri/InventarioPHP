@@ -9,8 +9,6 @@ Sistema para el control de inventarios de una empresa
 ### Instalación
 
 ```sh
-"Los puntos con simbolo ($) son comandos desde consola
- ubicado en la ruta del proyecto (C:\xampp\htdocs\Biblioteca)"
  
 1- Clonar proyecto en la ruta del proyecto (C:\xampp\htdocs\inventario)
 2- Iniciar Servicios de Xampp
