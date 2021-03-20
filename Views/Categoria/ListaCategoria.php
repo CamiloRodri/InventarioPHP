@@ -36,10 +36,10 @@
                                         <?= $fila[1] ?>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary" href="">
+                                            <a class="btn btn-primary" href="EditarCategoria.php?id=<?=base64_encode($fila[0])?>">
                                                         <i class="fas fa-marker"></i>
                                                 </a>
-                                                <a class="btn btn-danger" href="../../Controllers/CategoriaController.php?a=elim&id=<?=base64_encode($fila[0])?>" onclick="return confirm('¿Desea eliminar?')">
+                                                <a class="btn btn-danger" href="../../Controllers/CategoriaController.php?a=Eliminar&id=<?=base64_encode($fila[0])?>" onclick="return confirm('¿Desea eliminar?')">
                                                     <i class="fas fa-trash-alt"></i>
                                                 </a>
                                         </td>

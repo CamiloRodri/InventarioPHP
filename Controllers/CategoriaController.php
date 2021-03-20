@@ -14,12 +14,12 @@
                 $categoria->setNombre($_POST['nombre']);
                 $categoria->ingresar();
                 break;
-            // case 'Editar':
-            //     $categoria->id= base64_decode($_POST['id']);
-            //     $categoria->nombre = $_POST['nombre'];
-            //     $categoria->editar();
-            //     break;
-            case 'elim':
+            case 'Editar':
+                $categoria->setId(base64_decode($_POST['id']));
+                $categoria->setNombre($_POST['nombre']);
+                $categoria->editar();
+                break;
+            case 'Eliminar':
                 $categoria->setId(base64_decode($_GET['id']));
                 $categoria->eliminar();
                 break;
