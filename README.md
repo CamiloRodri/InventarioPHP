@@ -17,11 +17,13 @@ Sistema para el control de inventarios de una empresa
 
 Base de Datos
 Importar la base de datos con el nombre `inventario` con el archivo que esta en la carpeta inventario, llamado `inventario.sql` o crear la base de datos en mysql con los siguientes datos
+
 Nombre: `inventario`
 1- Tabla: `categorias`
     campo: `id` -> id
     campo: `nombre` -> varchar
-1- Tabla: `productos` 
+
+2- Tabla: `productos` 
     campo: `id` -> id
     campo: `nombre` -> varchar
     campo: `categoria_id` -> id
