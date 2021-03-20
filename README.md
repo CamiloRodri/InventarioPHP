@@ -30,9 +30,11 @@ Nombre: `inventario`
     campo: `categoria_id` -> id
     campo: `cantidad` -> id
 
-    Plantilla HTML utilizada:
-    <a href="https://www.creative-tim.com/product/paper-dashboard-2">Creative Tim</a>
 ```
+
+### Plantilla HTML utilizada
+
+* <a href="https://www.creative-tim.com/product/paper-dashboard-2">Creative Tim</a>
 
 ### Herramientas
 
